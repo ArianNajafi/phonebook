@@ -4,7 +4,7 @@
     -webkit-user-select:none;
     -moz-user-select:none;
     user-select:none;
-    font-family: 'vazirFont';
+    font-family: Tahoma, sans-serif;
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -24,7 +24,7 @@
     position: relative;
 }
 .title{
-    margin-top: 5px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     text-shadow: 1.3px 1.2px 5px white;
@@ -90,16 +90,16 @@
     align-items: center;
     margin-bottom: 15px;
     background-color: #fff;
-    width: 120px;
+    width: 125px;
     height: 40px;
     font-size: 1.2rem;
     border-radius: 8px;
-    box-shadow: 2px 3px 7px rgb(49, 49, 49);
+    box-shadow: 2px 1px 7px rgb(49, 49, 49);
     cursor: pointer;
 }
 .addContactBtn:hover{
     transition: ease-in-out 0.15s;
-    background-color: rgb(8 145 178);
+    background-color: rgb(80, 178, 202);
     color: #f0f9ff;
 }
 
